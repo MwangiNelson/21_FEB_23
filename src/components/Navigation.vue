@@ -1,6 +1,4 @@
-<script>
-    import ProfileVue from './ProfileVue.vue';
-</script>
+<script></script>
 <template>
   <nav class="app-navbar">
     <div class="nav-links">
@@ -8,16 +6,13 @@
       <a href="">ABOUT</a>
       <a href="">PROFILE</a>
     </div>
-    <div class="nav-profile">
-      <ProfileVue />
-    </div>
   </nav>
 </template>
-
 
 <style scoped>
 .app-navbar {
   width: 100%;
+  padding-block: 3.5vh;
   height: fit-content;
   background-color: blueviolet;
   display: flex;
@@ -31,12 +26,10 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
-  width: 50%;
-  color: white;
+  width: 25%;
   text-transform: uppercase;
 }
-.nav-profile {
-  position: relative;
-  right: 10%;
+.nav-links a {
+  color: white;
 }
 </style>
